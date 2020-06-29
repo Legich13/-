@@ -1,0 +1,153 @@
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    display: flex;
+}
+
+
+
+.header_container1 {
+    background-image: url(../img/Depositphotos_18388357_m-2015.jpg);
+    background-size: 700px 700px;
+    height: 600px;
+    width: 50%;
+}
+
+
+.header_container1 h1 {
+    padding-top: 25%;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    color:white;
+}
+
+.header_container2 {
+    padding-left: 20%;
+    padding-top: 10%;
+}
+
+.nav_bar {
+    padding-top: 20px;
+}
+
+
+.header_container2 {
+    background-color: rgb(202, 195, 195);
+    width: 40%;
+}
+
+.nav_bar {
+   
+    text-align: center;
+    margin-top: 20px;
+    width: 49%;
+}
+
+.nav_bar a {
+    text-decoration: none;
+    color:white;
+    
+}
+
+.nav_bar :hover {
+    background-color: black;
+    border-radius: 20px;
+   border: 2px solid black;
+}
+
+main  {
+   text-align: center;
+   padding-top: 5%;
+   
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+  }
+  
+  .title {
+    color: grey;
+    font-size: 18px;
+  }
+  
+  button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  a {
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+  }
+  
+  button:hover, a:hover {
+    opacity: 0.7;
+  }
+
+  .card_list {
+      display: flex;
+      padding-top: 10%;
+  }
+
+.card_zakaz {
+    background-color: rgb(202, 195, 195);
+}
+  .card_zakaz h2 {
+      text-align: center;
+      padding-top: 10%;
+      
+  }
+      
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 40%;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+    padding: 2px 16px;
+}
+
+.backgraund_card {
+    background-color: white;
+}
+.zakaz {
+    display: flex;
+    padding-top: 10%;
+}
+.wrapper {
+    padding-top: 10%;
+}
+
+.wrapper ul {
+    display: flex;
+    
+}
+
+.wrapper ul li {
+    padding-left: 13%;
+}
+
+.wrapper ul li  {
+    list-style-type: none;
+}
